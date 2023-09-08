@@ -8,7 +8,8 @@ import org.junit.jupiter.api.TestMethodOrder;
 
 
 //@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-@TestMethodOrder(MethodOrderer.MethodName.class)
+//@TestMethodOrder(MethodOrderer.MethodName.class)
+@TestMethodOrder(MethodOrderer.Random.class)
 public class EscolhendoAOrdemTeste {
 
 	
